@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: auto;
+    background-color: black;
+    background-image: url(/Images/Untitled\ design.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header img {
+    height: 45px;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.box {
+    height: 500px;
+    width: 350px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.7;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+.box h1 {
+    font-family: "Roboto Condensed", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.box input {
+    background-color: rgb(17, 17, 17);
+    border: 1px solid white;
+    height: 40px;
+    width: 70%;
+    margin: 15px;
+    padding-left: 2px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    font-size: .9rem;
+}
+
+.sign-in {
+    text-align: center; 
+}
+
+.box button:hover {
+    background-color: rgb(146, 0, 0);
+}
+.box button {
+    background-color: red;
+    border: none;
+    height: 40px;
+    width: 70%;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    margin: 15px;
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.or p {
+    color: rgb(94, 94, 94);
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.or {
+    display: flex;
+    justify-content: center;
+}
+
+.new a {
+        display: inline-block;
+        text-decoration: none;
+        background-color: rgb(97, 97, 97);
+        height: 40px;
+        width: 70%;
+        border-radius: 2px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        -ms-border-radius: 2px;
+        -o-border-radius: 2px;
+        margin: 15px;
+        font-size: 1.2rem;
+        color: white;
+        font-weight: 700;
+        font-family: "Roboto Condensed", sans-serif;
+        text-align: center;
+        padding-top: 10px;
+}
+
+.new {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.forget p{
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.forget {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.new-user {
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-top: 15px;
+    padding-left: 56px;
+    font-size: small;
+}
+
+.id {
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 9px;
+}
+
+.recapta {
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-top: 15px;
+    padding-left: 56px;
+    font-size: .7rem;
+    font-weight: 500; 
+}
+    
+.recapta span {
+    color: blue;
+}
+
+footer {
+    height: 500px;
+    color: rgb(82, 82, 82);
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    padding-top: 150px;
+    margin-left: 30px;
+}
+
+.faq {
+    margin-top: 40px;
+}
+.terms {
+    margin-top: 50px;
+}
+
+.cook {
+    margin-top: 60px;
+}
+
+.links a {
+    color: white;
+    font-size: .9rem;
+}
+
